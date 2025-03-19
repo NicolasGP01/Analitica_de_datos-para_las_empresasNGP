@@ -1,4 +1,4 @@
-# Analítica de datos para las empresas
+# Analítica de datos para las empresas :mag:
 **Este curso de Analítica de Datos está diseñado para profesionales en Administración de Empresas que buscan potenciar sus habilidades en el análisis de información y la toma de decisiones estratégicas.**
 
 ### Estructura de la página
