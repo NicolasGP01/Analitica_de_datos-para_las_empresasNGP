@@ -10,7 +10,7 @@
 │── tareas.html       (Tareas y ejercicios)  
 │── styles.css        (Archivo de estilos CSS)  
 │── /docs             (Carpeta para PDFs y otros recursos)  
-│   │──Diapositivas   (Carpeta)  
+│        │──Diapositivas   (Carpeta)  
 |      |──clase1.pdf  
 |   |──Tareas         (Carpeta)  
 │      │── ejercicio1.pdf  
