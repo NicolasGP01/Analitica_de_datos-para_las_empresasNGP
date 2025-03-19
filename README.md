@@ -15,3 +15,4 @@
 |   |──Tareas         (Carpeta)  
 │      │── ejercicio1.pdf  
 │   │── material_extra.pdf
+[E](https://platzi.com/comunidad/listado-completo-de-emojis-en-markdown/)
