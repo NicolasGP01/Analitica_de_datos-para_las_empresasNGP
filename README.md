@@ -8,10 +8,10 @@
 │── slides.html       (Diapositivas)  
 │── material.html     (Material de apoyo)  
 │── tareas.html       (Tareas y ejercicios)  
-│── styles.css        (Archivo de estilos CSS)
-│── /docs             (Carpeta para PDFs y otros recursos)
-│   │──Diapositivas   (Carpeta) 
-|      |──clase1.pdf
-|   |──Tareas         (Carpeta)
-│      │── ejercicio1.pdf
+│── styles.css        (Archivo de estilos CSS)  
+│── /docs             (Carpeta para PDFs y otros recursos)  
+│   │──Diapositivas   (Carpeta)  
+|      |──clase1.pdf  
+|   |──Tareas         (Carpeta)  
+│      │── ejercicio1.pdf  
 │   │── material_extra.pdf
