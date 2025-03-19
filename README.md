@@ -4,13 +4,10 @@
 ### Estructura de la página
 /mi-curso
 
-│── index.html        (Página principal del curso)
-
-│── slides.html       (Diapositivas)
-
-│── material.html     (Material de apoyo)
-
-│── tareas.html       (Tareas y ejercicios)
+│── index.html        (Página principal del curso)  
+│── slides.html       (Diapositivas)  
+│── material.html     (Material de apoyo)  
+│── tareas.html       (Tareas y ejercicios)  
 │── styles.css        (Archivo de estilos CSS)
 │── /docs             (Carpeta para PDFs y otros recursos)
 │   │──Diapositivas   (Carpeta) 
