@@ -4,25 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tareas</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: white;
+            color: white;
+            width: 250px;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+        nav h2 {
+            margin-top: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: #08457E;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #0277bd;
+        }
+        main {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        section {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: white;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Tareas y Ejercicios</h1>
-        <a href="index.html">🏠 Volver a Inicio</a>
-    </header>
-
-    <section>
-        <h2>📌 Tareas Asignadas</h2>
+    <nav>
+        <h2>Menú del Curso</h2>
         <ul>
-            <li><a href="docs/tarea1.pdf" target="_blank">Tarea 1: Análisis Exploratorio de Datos</a></li>
+            <li><a href="index.html">🏠 Volver a Inicio</a></li>
+            <li><a href="#">Tareas Asignadas</a></li>
+            <li><a href="#">Subir Tareas</a></li>
         </ul>
-    </section>
+    </nav>
+    <main>
+        <section>
+            <h2>📌 Tareas Asignadas</h2>
+            <ul>
+                <li><a href="docs/tarea1.pdf" target="_blank">Tarea 1: Análisis Exploratorio de Datos</a></li>
+                <li><a href="docs/tarea2.pdf" target="_blank">Tarea 2: Visualización de Datos en R</a></li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>📤 Encuesta para Colgar Archivos</h2>
-        <p>Si necesitas subir tus tareas, haz clic en el siguiente enlace:</p>
-        <a href="https://example.com/encuesta_subida" target="_blank">Entregar tarea</a>
-    </section>
+        <section>
+            <h2>📤 Encuesta para Colgar Archivos</h2>
+            <p>Si necesitas subir tus tareas, haz clic en el siguiente enlace:</p>
+            <a href="https://example.com/encuesta_subida" target="_blank">🗂 Subir Tareas</a>
+        </section>
+    </main>
 </body>
 </html>
