@@ -11,7 +11,6 @@
             font-weight: 500;
             margin: 0;
             padding: 0;
-            margin-bottom: 50px; /* Espacio para que no lo cubra el footer */
             background-color: #f4f4f4;
             text-align: center;
         }
@@ -43,14 +42,19 @@
             flex-direction: column;
             align-items: center;
         }
+        .top-sections {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            width: 80%;
+        }
         .section {
             background: white;
             padding: 20px;
-            margin: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: left;
-            width: 60%;
+            flex: 1;
         }
         .section h2 {
             text-align: center;
@@ -61,8 +65,12 @@
         .section ul {
             padding-left: 20px;
         }
+        .full-width {
+            width: 80%;
+            margin-top: 20px;
+        }
         .profile {
-           font-size: 20px; /* Aumentar el tamaño */
+           font-size: 20px;
             margin: 40px auto;
             text-align: center;
             width: fit-content;
@@ -88,14 +96,12 @@
             color: #0277bd;
         }
         footer {
-            
             background-color: #333;
             color: white;
             padding: 10px;
-            position: relative; /* Cambiado de fixed a relative */
-          /* bottom: 0;*/
-            width: 100%,
-            margin-top: 20px; /* Espacio superior */;
+            position: relative;
+            margin-top: 20px;
+            width: 100%;
         }
     </style>
 </head>
@@ -112,11 +118,21 @@
     </nav>
     
     <div class="container">
-        <div class="section">
-            <h2>📢 Sobre el Curso</h2>
-            <p>Este curso de Analítica de Datos está diseñado para profesionales en Administración de Empresas que buscan potenciar sus habilidades en el análisis de información y la toma de decisiones estratégicas. A lo largo del curso, desarrollarán competencias clave en el manejo de datos, permitiéndoles optimizar procesos, identificar oportunidades y llevar su profesión al siguiente nivel en un entorno empresarial basado en datos todo en el marco de la invetigación.</p>
+        <!-- Sección en dos columnas -->
+        <div class="top-sections">
+            <div class="section">
+                <h2>📢 Sobre el Curso</h2>
+                <p>Este curso de Analítica de Datos está diseñado para profesionales en Administración de Empresas que buscan potenciar sus habilidades en el análisis de información y la toma de decisiones estratégicas. A lo largo del curso, desarrollarán competencias clave en el manejo de datos, permitiéndoles optimizar procesos, identificar oportunidades y llevar su profesión al siguiente nivel en un entorno empresarial basado en datos todo en el marco de la investigación.</p>
+            </div>
+            <div class="section">
+                <h2>📅 Horario y Salón</h2>
+                <p><strong>Horario:</strong> Martes y Jueves, 6:00 PM - 8:00 PM</p>
+                <p><strong>Salón:</strong> Edificio A, Aula 302</p>
+            </div>
         </div>
-        <div class="section">
+        
+        <!-- Sección de Contenido del Curso (único abajo) -->
+        <div class="section full-width">
             <h2>📂 Contenido del Curso</h2>
             <ul>
                 <li> Introducción al análisis de datos</li>
