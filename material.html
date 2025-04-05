@@ -33,8 +33,26 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+        .cuadros-contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .cuadro {
+            background-color: #e0e0e0; /* gris claro */
+            padding: 20px;
+            border-radius: 10px;
+            width: 45%; /* dos por fila */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .cuadro h3 {
+            margin-top: 0;
+            color: #002E63;
+        }
         ul {
-           /* padding-left: 20px;*/
             text-align: center;
         }
     </style>
@@ -49,10 +67,29 @@
         <h2>📖 Recursos Complementarios</h2>
         <ul>
             <li><a href="docs/Material_de_apoyo/Guia_Download.pdf" target="_blank">Cómo descargar los programas estadísticos</a></li>
-            <li><a href="docs/Material_de_apoyo/Recursos_packages_Nicolas-Garcia-Penaloza.pdf" target="_blank">Librerias</a></li>
+            <li><a href="docs/Material_de_apoyo/Recursos_packages_Nicolas-Garcia-Penaloza.pdf" target="_blank">Librerías</a></li>
             <li><a href="docs/Material_de_apoyo/Recursos_analisis_de_datos_Nicolas-Garcia-Penaloza.pdf" target="_blank">Recursos para los programas estadísticos</a></li>
             <li><a href="https://raw.githubusercontent.com/NicolasGP01/Analitica_de_datos-para_las_empresas/main/docs/Material_de_apoyo/Regresion_Lineal.xlsx" download>-Beta estimado-</a></li>
         </ul>
+
+        <div class="cuadros-contenedor">
+            <div class="cuadro">
+                <h3>Clases 1</h3>
+                <p>Descripción o contenido de la clase 1. Puedes agregar aquí textos, links o listas.</p>
+            </div>
+            <div class="cuadro">
+                <h3>Clases 2</h3>
+                <p>Descripción o contenido de la clase 2. Puedes modificar el texto como prefieras.</p>
+            </div>
+            <div class="cuadro">
+                <h3>Clases 3</h3>
+                <p>Otra clase adicional. Puedes duplicar este bloque para más clases.</p>
+            </div>
+            <div class="cuadro">
+                <h3>Clases 4</h3>
+                <p>Contenido adicional o recursos para esta clase en particular.</p>
+            </div>
+        </div>
     </section>
 </body>
 </html>
