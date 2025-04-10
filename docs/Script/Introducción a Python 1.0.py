@@ -48,14 +48,12 @@ webbrowser.open("https://colab.research.google.com/")
 webbrowser.open("https://www.learnpython.org/")
 webbrowser.open("https://www.youtube.com/watch?v=_uQrJ0TkZlc")  # Curso introductorio en video
 
-# Continuamos construyendo el resto del script traducido de R a Python con formato de script comentado
 
-script_restante = """
 # Formas de ejecutar Python
 # I-1. Trabajando en la consola interactiva, cada comando se ejecuta con 'Enter'.
-#      Se puede utilizar IDLE o entornos como Anaconda Prompt.
+#      Se puede utilizar IDLE o entornos como Anaconda.
 # I-2. Archivo .py: es más práctico para ejecutar varios comandos.
-#      Se puede correr el archivo completo o por secciones en editores como VS Code, PyCharm o Jupyter.
+#      Se puede correr el archivo completo o por secciones en editores como VS Code, PyCharm o Jupyter. para ejecutar en Visual con 'Shift + Enter'
 # II Para correr un comando en Jupyter se selecciona la celda y se presiona 'Shift + Enter'.
 #    También se puede usar el botón "Run" o "Ejecutar".
 
@@ -63,12 +61,8 @@ script_restante = """
 import pandas as pd
 
 ##https://x.com/python_dv/status/1909345938499657927?s=48
-
-
 print("Tabla de sintaxis, pruebas lógicas y operadores aritméticos en Python")
-print(cuadro_sintaxis)
-print(cuadro_logicas)
-print(cuadro_operadores)
+
 
 # Iniciemos ----
 
@@ -109,7 +103,6 @@ print(math.sqrt(8)/2.5)
 
 # Pruebas lógicas
 print(7 == 7)
-# print(4 = 2)  # Esto es incorrecto en Python, se usa '==' para comparar
 print(19 <= 19)
 print(10 != 10)
 print(1 in [2,2,3,4,6,7,8,1,4])
@@ -222,16 +215,6 @@ print(isinstance(20, str))
 print(isinstance(y, str))
 print(isinstance(v, str))
 print(isinstance(True, bool))
-
-##############################################################################
-#######                                                                #######
-#                       Estructuras de Datos y Bucles en Python              #
-#######                                                                #######
-##############################################################################
-
-# Ya vimos cómo declarar listas, arrays y DataFrames.
-
-# Vamos a cerrar esta introducción con estructuras tabulares, bucles y más.
 
 # Creamos un DataFrame (equivalente a data.frame en R)
 import pandas as pd
