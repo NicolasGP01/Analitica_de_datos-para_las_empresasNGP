@@ -1,0 +1,154 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+
+\usepackage[letterpaper,left = 1.0in , right = 1.0in , top = 0.8in , bottom = 1.0in]{geometry}
+% Useful packages
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{array}
+\usepackage[table,dvipsnames]{xcolor}
+\usepackage{afterpage}
+\usepackage{fix-cm}
+\usepackage{lipsum}
+\usepackage{sectsty}
+\usepackage{epsfig,pict2e}
+\usepackage{fancyhdr}
+\usepackage[tc]{titlepic}
+\usepackage{amsmath,amsfonts,amssymb,relsize}
+\usepackage[tikz]{bclogo}
+\usepackage{titling}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{blindtext}
+\usepackage{colortbl}
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes} 
+\usepackage{multirow} 
+\usepackage{setspace} 
+\usepackage{float} 
+\usepackage{watermark}
+\usepackage{mathptmx} 
+\usepackage{natbib} % Poner referencia a la citas.
+\usepackage{mathtools}% Multiplicadores de lagrange
+
+%% Fuentes------------
+\usepackage{lmodern} % Fuente de letra.
+\usepackage[T1]{fontenc} % Que acente los acentos que tenemos en el español.
+
+% Opciones del paquete Hyperref - Option PDF --------
+\usepackage{hyperref} % Insertar Ipervinculos
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=red,    
+    citecolor = blue , % Color de la cita
+    urlcolor= red, % Color de la palabra que oculta la URL
+    pdfmenubar=false,  % show Acrobat’s menu?
+    pdfpagemode=UseNone,% Determina cómo se abre el archivo en Acrobat; las posibilidades son UseNone, UseThumbs (mostrar miniaturas), UseOutlines (mostrar marcadores), FullScreen, UseOC (PDF 1.5), y UseAttachments (PDF 1.6). Si no se elige explícitamente ningún modo explícitamente, pero la opción de marcadore  se utiliza UseOutlines.
+    pdfsubject={Universidad del Quindío}, 
+    pdfcreator={Nicolás García Peñaloza},
+    pdftitle={Nicolás García Peñaloza}  ,
+    pdfauthor={Nicolás García Peñaloza} ,
+    pdfstartpage=1, %% En que página abre el documento?
+    pdfdisplaydoctitle=true,%% Mostrar título
+  %  pdfpagemode=FullScreen, % Si quiero que de una sola el PDF abra en la pantalla completa
+    pdfstartview={XYZ null null 0.497}, % Acercando el PDFCON 
+   % pdfstartview={XYZ null null 2.00} % Con esto lo abre al 200%
+    %pdfstartview=FitH
+    pdfkeywords={Universidad Del Quindío, Xxxxxxxx }  
+    }
+%------------------------------------------------------------
+
+\title{\textbf{Modelo de documento tipo paper}}
+\author{Nicolás García Peñaloza\thanks{Universidad del Quindío.} \and García Peñaloza Nicolas\thanks{Universidad del Quindío.}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+La ciudad de Cali, capital del Valle de Cauca, goza de ser uno de los principales centros económicos del país, hasta el último registro del Indicador de Importancia Económica Municipal, la ciudad representaba cerca de la mitad del valor agregado del departamento; un 46.2 \% (\$32.558.638.363), siendo a nivel departamental la tercera economía más importante del país con un peso del 9.6\% para 2022. 
+Cali no solo destaca por sus cifras económicas, sino que también se distingue por su riqueza cultural, lo cual agrega un atractivo adicional a la ciudad. La dinámica red empresarial de Cali impulsa la innovación, contribuyendo así a un comercio sólido y robusto. Estos elementos convergen para consolidar a Cali como una ciudad versátil y competente en diversos aspectos, lo que le permite no solo competir a nivel nacional, sino también posicionarse en el escenario internacional.
+En este contexto, la focalización o diversificación del mercado inmobiliario emerge como una consideración esencial para las empresas inmersas en este sector. El propósito fundamental de este informe es investigar la dirección hacia la cual se concentra y debería dirigirse este mercado, proporcionando así una perspectiva integral para las decisiones estratégicas en el ámbito inmobiliario.
+fdnvifdvjdascdsaa
+
+\section{Enumerar}
+
+\begin{enumerate} % Entorno de items
+ \item Todo lo que ponga acá...
+
+ \item Investigar y clasificar la tipología de viviendas presente en el mercado, centrándose en sus características particulares y valores asociados.
+
+\item Evaluar el nivel de equipamiento de las viviendas en la ciudad, abordando aspectos relevantes que influyan en su valor y atractivo para los potenciales compradores.
+\end{enumerate}
+
+\section{Entorno de viñetas}
+
+
+\begin{itemize} % Entorno de item
+    \item \textbf{Relación de tipo de inmuebles:} Conocer la relación de viviendas tipo casa o apartamentos resulta clave para enfocar la concentración de mercado.
+    \item \textbf{Distribuciones espacial de los inmuebles:} El mercado inmobiliario requiere de la información espacial de estas observaciones, por tal motivo se implementa una georreferenciación de los puntos donde se encuentran situados estos inmuebles.
+    \item \textbf{Densidad de la concentración de los inmuebles:} En consonancia con lo anterior, es importante conocer la densidad de estos inmuebles.
+    \item \textbf{Frecuencia y peso de las zonas de los inmuebles:} Una vez que se ha identificado la distribución, resulta crucial analizar la frecuencia de las zonas y evaluar su ponderación en la muestra. Este procedimiento permite comprender la representatividad relativa de cada zona en el conjunto de datos, brindando una perspectiva cuantitativa de la prevalencia de distintas áreas geográficas en la muestra en consideración.
+\end{itemize}
+
+\textit{Proceso descriptivo} %Cursiva
+
+
+\begin{itemize} % Si quiero personalizar mis los marcaodores de mis item
+    \item[$\circledast$] \textbf{Descripción general:} La base de datos analizada consta de 8330 observaciones representando componentes únicos identificados por un ID en un contexto de datos de sección cruzada. Inicialmente compuesta por 13 variables, se incorporan tres variables adicional para estimar el precio de la vivienda en millones. La descripción aborda las características de los vectores, proporcionando ejemplos ilustrativos. Un análisis detallado revela la frecuencia y tipología variable, así como la cantidad de valores perdidos en cada variable, facilitando la evaluación de la integridad de los datos.
+     \item[$\beta$] \textbf{homogeneización de los vectores:} La normalización de los vectores característicos se lleva a cabo mediante la transformación uniforme de todas las palabras a mayúsculas o minúsculas en una única composición. Simultáneamente, se procede a la eliminación de acentos diacríticos presentes en la lengua española, buscando establecer una representación coherente y homogénea de los datos.
+    \item[$\ggg$] \textbf{Inmuebles duplicados:} La imperativa necesidad de disponer de información única se fundamenta en la singularidad de cada observación, aspirando a que cada instancia represente exclusivamente una unidad en la muestra. Este enfoque busca mitigar posibles errores asociados a la identificación, particularmente en lo referente a identificadores similares. Se Conjuga esta estrategia analítica con la consideración de la ubicación y tipología de la vivienda, vinculadas intrínsecamente a su correspondiente valor.   
+\end{itemize}
+
+\section{Texto}
+
+\definecolor{Nicolas}{rgb}{0.53, 0.66, 0.42}
+\definecolor{byzantine}{rgb}{0.74, 0.2, 0.64}
+
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+\textcolor{airforceblue}{Mi palabra} \textcolor{Nicolas}{un texto} \textcolor{byzantine}{de diferentes colores.} \ref{eq:Cobb-douglas}
+
+
+\section{Entorno de ecuaciones}
+
+$\Longrightarrow$ \underline{Ecuación.} \cite{texbook}
+
+\begin{equation} % Abro entorno de ecuaciones 
+f(x,y)=x^{\alpha-1}y^{\beta}
+\label{eq:Cobb-douglas} % Etiqueta para La ecuación
+\end{equation}
+
+\subsection{Sin entorno}
+
+$e^{i\pi} + 1 = 0$
+
+\begin{gather*}
+\max U(x,y)\\
+\shortintertext{subject to}
+g(x,y) = c\\
+\shortintertext{Then}
+\mathcal{L} = U(x,y) - \lambda \bigl(g(x,y) -c\bigr) \\[1ex]
+\begin{alignedat}{2}
+&[x] &       \partial_x U &= \lambda \partial_x g(x,y)\\
+&[y] &       \partial_y U &= \lambda \partial_y g(x,y)\\
+&[\lambda] & \quad g(x,y) &= c
+\end{alignedat}
+\end{gather*}
+
+
+\subsubsection{Sin entorno}
+
+Para escribir ecuaciones se este editor es útil \href{https://editor.codecogs.com/}{Editor 1} o \href{https://latex.codecogs.com/eqneditor/editor.php}{editor 2.}
+
+
+
+\begin{thebibliography}{9}
+\bibitem{texbook}
+Donald E. Knuth (1986) \emph{The \TeX{} Book}, Addison-Wesley Professional.
+
+\bibitem{lamport94}
+Leslie Lamport (1994) \emph{\LaTeX: a document preparation system}, Addison
+Wesley, Massachusetts, 2nd ed.
+\end{thebibliography}
+
+\end{document}
