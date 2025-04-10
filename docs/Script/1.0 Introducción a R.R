@@ -291,33 +291,6 @@ y_4 = as.data.frame(y_4)
 print("¿Qué hizo R al especificarle que es un marco de datos?")
 y_4
 
-# Bucles en R: repetir tareas
-
-# FOR: útil cuando conocemos la cantidad de repeticiones
-for (i in 1:5) {
-  mensaje <- paste("Iteración número:", i)
-  print(mensaje)
-  # Cada ciclo toma un valor de la secuencia 1:5 y ejecuta el bloque
-}
-
-#  WHILE: ejecuta mientras se cumpla la condición
-contador <- 1
-while (contador <= 3) {
-  print(paste("Contador:", contador))
-  contador <- contador + 1  # importante actualizar para evitar bucle infinito
-}
-
-# REPEAT: ejecuta indefinidamente hasta encontrar un 'break'
-n <- 1
-repeat {
-  print(paste("Número:", n))
-  n <- n + 1
-  if (n > 3) {
-    break  # detenemos el ciclo manualmente
-  }
-}
-
-
 ## Paquetes --------------------
 print("Como lo hemos escuchado en R se desarrollan diferentes librerias gracias a los aportes de su comunidad")
 
@@ -361,3 +334,111 @@ remove.packages("NOMBRE DEL PAQUETE", lib="~/R/win-library/4.0")
 library(installr)
 #updateR() # Sí - Sí - No
 
+# Cargar librerías necesarias
+library(tibble)
+library(data.table)
+
+# Estructuras tabulares con datos reales
+# Años de análisis
+anios <- 2017:2023
+
+# Empresas ficticias
+empresas <- c("TechNova", "GreenWorld", "FinExpress")
+
+# Ventas anuales por empresa
+ventas_df <- data.frame(
+  empresa = empresas,
+  ventas_2017 = c(2.5, 3.2, 1.8),
+  gastos_2027 = c(2.5, 3.2, 1.8),
+  ventas_2018 = c(3.1, 3.5, 2.0),
+  gastos_2019 = c(2.5, 3.2, 1.8),
+  ventas_2019 = c(3.8, 3.7, 2.6),
+  gastos_2020 = c(2.5, 3.2, 1.8),
+  ventas_2020 = c(4.5, 4.0, 3.1),
+  gastos_2021 = c(2.5, 3.2, 1.8),
+  ventas_2021 = c(5.0, 4.3, 3.5),
+  gastos_2022 = c(2.5, 3.2, 1.8),
+  ventas_2022 = c(5.7, 4.9, 4.0),
+  gastos_2023 = c(2.5, 3.2, 1.8),
+  ventas_2023 = c(6.2, 5.1, 4.4)
+)
+print(ventas_df)
+
+# tibble: misma información, formato más limpio
+ventas_tibble <- tibble(
+  empresa = empresas,
+  ventas_2017 = c(2.5, 3.2, 1.8),
+  gastos_2017 = c(2.5, 3.2, 1.8),
+  ventas_2018 = c(3.1, 3.5, 2.0),
+  gastos_2018 = c(2.5, 3.2, 1.8),
+  ventas_2019 = c(3.8, 3.7, 2.6),
+  gastos_2019 = c(2.5, 3.2, 1.8),
+  ventas_2020 = c(4.5, 4.0, 3.1),
+  gastos_2020 = c(2.5, 3.2, 1.8),
+  ventas_2021 = c(5.0, 4.3, 3.5),
+  gastos_2021 = c(2.5, 3.2, 1.8),
+  ventas_2042 = c(5.7, 4.9, 4.0),
+  gastos_2022 = c(2.5, 3.2, 1.8),
+  ventas_2023 = c(6.2, 5.1, 4.4),
+  gastos_2023 = c(2.5, 3.2, 1.8)
+)
+print(ventas_tibble)
+
+# matrix: solo valores de ventas (sin nombres)
+ventas_matrix <- matrix(
+  data = c(
+    2.5, 3.1, 3.8, 4.5, 5.0, 5.7, 6.2,      # TechNova
+    3.2, 3.5, 3.7, 4.0, 4.3, 4.9, 5.1,      # GreenWorld
+    1.8, 2.0, 2.6, 3.1, 3.5, 4.0, 4.4       # FinExpress
+  ),
+  nrow = 3,
+  ncol = 7,
+  byrow = TRUE,
+  dimnames = list(empresas, paste0("Y", 2017:2023))
+)
+print(ventas_matrix)
+
+# data.table
+ventas_dt <- data.table(
+  empresa = empresas,
+  ventas_2017 = c(2.5, 3.2, 1.8),
+  gastos_2017 = c(2.5, 3.2, 1.8),
+  ventas_2018 = c(3.1, 3.5, 2.0),
+  gastos_2018 = c(2.5, 3.2, 1.8),
+  ventas_2019 = c(3.8, 3.7, 2.6),
+  gastos_2019 = c(2.5, 3.2, 1.8),
+  ventas_2020 = c(4.5, 4.0, 3.1),
+  gastos_2020 = c(2.5, 3.2, 1.8),
+  ventas_2021 = c(5.0, 4.3, 3.5),
+  gastos_2021 = c(2.5, 3.2, 1.8),
+  ventas_2022 = c(5.7, 4.9, 4.0),
+  gastos_2022 = c(2.5, 3.2, 1.8),
+  ventas_2023 = c(6.2, 5.1, 4.4),
+  gastos_2023 = c(2.5, 3.2, 1.8)
+)
+print(ventas_dt)
+
+# Bucles en R: repetir tareas
+# FOR: útil cuando conocemos la cantidad de repeticiones
+for (i in 1:5) {
+  mensaje <- paste("Iteración número:", i)
+  print(mensaje)
+  # Cada ciclo toma un valor de la secuencia 1:5 y ejecuta el bloque
+}
+
+#  WHILE: ejecuta mientras se cumpla la condición
+contador <- 1
+while (contador <= 3) {
+  print(paste("Contador:", contador))
+  contador <- contador + 1  # importante actualizar para evitar bucle infinito
+}
+
+# REPEAT: ejecuta indefinidamente hasta encontrar un 'break'
+n <- 1
+repeat {
+  print(paste("Número:", n))
+  n <- n + 1
+  if (n > 3) {
+    break  # detenemos el ciclo manualmente
+  }
+}
