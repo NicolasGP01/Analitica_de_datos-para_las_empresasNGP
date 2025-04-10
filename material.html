@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Material de Apoyo</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
         body {
             font-family: 'Nunito', sans-serif;
+            font-weight: 500;
+            text-align: center;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
         }
+
         header {
             background-color: #002E63;
             color: white;
             padding: 20px;
         }
+
         a {
             color: #08457E;
             font-weight: bold;
             text-decoration: none;
         }
+
         a:hover {
             color: #0277bd;
         }
+
         section {
             background-color: white;
             padding: 20px;
@@ -33,6 +39,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         .cuadros-contenedor {
             display: flex;
             flex-wrap: wrap;
@@ -40,20 +47,33 @@
             gap: 20px;
             margin-top: 20px;
         }
+
         .cuadro {
-            background-color: #e0e0e0; /* gris claro */
+            background-color: #e0e0e0;
             padding: 20px;
             border-radius: 10px;
-            width: 45%; /* dos por fila */
+            width: 45%;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: left;
         }
+
+        .cuadro.full-width {
+            width: 93%;
+        }
+
         .cuadro h3 {
             margin-top: 0;
             color: #002E63;
         }
+
         ul {
             text-align: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 8px 0;
         }
     </style>
 </head>
@@ -66,49 +86,51 @@
     <section>
         <h2>📖 Recursos Complementarios</h2>
         <ul>
-           Aquí encontrarán todo el material complementario del curso, incluyendo guías, ejemplos prácticos y anexos.
+            Aquí encontrarán todo el material complementario del curso, incluyendo guías, ejemplos prácticos y anexos.
         </ul>
 
         <div class="cuadros-contenedor">
             <div class="cuadro">
                 <h3>Complementos para nuestros programas</h3>
-               <p>Este material son los complementos para impulsar el desarrollo de nuestros programas</p>
-            <li><a href="docs/Material_de_apoyo/Packages.pdf" target="_blank">Librerías</a></li>
-            <li><a href="docs/Material_de_apoyo/Recursos_Medicion.pdf" target="_blank">Recursos para los programas estadísticos</a></li>
-            <li><a href="docs/Material_de_apoyo/1_Git_and_GitHub.pdf" target="_blank">Git y GitHub</a></li>
+                <p>Este material son los complementos para impulsar el desarrollo de nuestros programas</p>
+                <li><a href="docs/Material_de_apoyo/Packages.pdf" target="_blank">Librerías</a></li>
+                <li><a href="docs/Material_de_apoyo/Recursos_Medicion.pdf" target="_blank">Recursos para los programas estadísticos</a></li>
+                <li><a href="docs/Material_de_apoyo/1_Git_and_GitHub.pdf" target="_blank">Git y GitHub</a></li>
             </div>
+
             <div class="cuadro">
                 <h3>Ejemplos estadísticos</h3>
                 <p>Aquí encontraran los ejemplos teóricos</p>
                 <li><a href="https://raw.githubusercontent.com/NicolasGP01/Analitica_de_datos-para_las_empresas/main/docs/Material_de_apoyo/Regresion_Lineal.xlsx" download>-Beta estimado-</a></li>
                 <li><a href="https://raw.githubusercontent.com/NicolasGP01/Analitica_de_datos-para_las_empresas/main/docs/Material_de_apoyo/Teorema%20central%20del%20limite.xlsx" download>-TLC-</a></li>
             </div>
-           <div class="cuadro">
-        <h3>Guías</h3> 
-             <p>Guías para la descarga de las bases de datos</p> 
-               <li><a href="docs/Material_de_apoyo/1G.pdf" target="_blank">Demografía</a></li>
-                 </div>
-             <div class="cuadro"> 
-             <h3>Otro</h3> 
-             <p>Contenido adicional.</p>
-            <li><a href="docs/Material_de_apoyo/Data%20Source%20(1).pdf" target="_blank">Datos</a></li>
-            <li><a href="docs/Material_de_apoyo/Download.pdf" target="_blank">Cómo descargar los programas estadísticos</a></li>
-            <li><a href="docs/Material_de_apoyo/Guiasdeentorno.pdf" target="_blank">Descripción de los entornos de trabajo</a></li>
-            <li><a href="docs/Material_de_apoyo/Cenceptos.pdf" target="_blank">Lista de conceptos a tener en cuenta</a></li>
-            <li><a href="https://raw.githubusercontent.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/main%20(1).tex" download>Paper</a></li>
-            <li><a href="https://raw.githubusercontent.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/Plantilla_%20Tesis.zip" download>Tesis</a></li>     
-            </div> 
-            <div class="cuadro-final">
-   <div class="cuadro full-width">
-    <h3>Script</h3>
-    <p>Aquí puedes encontrar scripts útiles para tus análisis y automatizaciones.</p>
-    <ul>
-        <li><a href="docs/Material_de_apoyo/script_automatizacion.py" target="_blank">Script de Automatización (Python)</a></li>
-        <li><a href="docs/Material_de_apoyo/script_limpieza.R" target="_blank">Script de Limpieza de Datos (R)</a></li>
-    </ul>
-</div>
 
-       </div> 
+            <div class="cuadro">
+                <h3>Guías</h3> 
+                <p>Guías para la descarga de las bases de datos</p> 
+                <li><a href="docs/Material_de_apoyo/1G.pdf" target="_blank">Demografía</a></li>
+            </div>
+
+            <div class="cuadro"> 
+                <h3>Otro</h3> 
+                <p>Contenido adicional.</p>
+                <li><a href="docs/Material_de_apoyo/Data%20Source%20(1).pdf" target="_blank">Datos</a></li>
+                <li><a href="docs/Material_de_apoyo/Download.pdf" target="_blank">Cómo descargar los programas estadísticos</a></li>
+                <li><a href="docs/Material_de_apoyo/Guiasdeentorno.pdf" target="_blank">Descripción de los entornos de trabajo</a></li>
+                <li><a href="docs/Material_de_apoyo/Cenceptos.pdf" target="_blank">Lista de conceptos a tener en cuenta</a></li>
+                <li><a href="https://raw.githubusercontent.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/main%20(1).tex" download>Paper</a></li>
+                <li><a href="https://raw.githubusercontent.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/Plantilla_%20Tesis.zip" download>Tesis</a></li>     
+            </div> 
+
+            <div class="cuadro full-width">
+                <h3>Script</h3>
+                <p>Aquí puedes encontrar scripts útiles para tus análisis y automatizaciones.</p>
+                <ul>
+                    <li><a href="docs/Material_de_apoyo/script_automatizacion.py" target="_blank">Script de Automatización (Python)</a></li>
+                    <li><a href="docs/Material_de_apoyo/script_limpieza.R" target="_blank">Script de Limpieza de Datos (R)</a></li>
+                </ul>
+            </div>
+        </div>
     </section>
 </body>
 </html>
