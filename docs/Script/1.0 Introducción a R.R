@@ -442,3 +442,5 @@ repeat {
     break  # detenemos el ciclo manualmente
   }
 }
+
+print("Tengamos en cuenta dos principios a la hora de codificar: 1) nuesto código debe ser secuencial, debe tener un orden. 2) Optimo, nuestro código debe estar optimizado, lo cual representa hacer el trabajo con las menores lineas de código")
