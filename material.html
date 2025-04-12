@@ -76,27 +76,14 @@
       margin: 8px 0;
     }
 
-    /* NUEVO: columnas internas para el último cuadro */
-    .script-columns {
+    /* Estilos para las columnas dentro del cuadro */
+    .cuadro.full-width .columnas {
       display: flex;
-      gap: 30px;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      margin-top: 20px;
+      gap: 20px;
     }
 
-    .script-column {
-      width: 48%;
-      background-color: #f9f9f9;
-      border-radius: 8px;
-      padding: 15px;
-      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
-      text-align: left;
-    }
-
-    .script-column h4 {
-      color: #002E63;
-      margin-top: 0;
+    .cuadro.full-width .columnas .columna {
+      flex: 1;
     }
   </style>
 </head>
@@ -123,7 +110,7 @@
 
       <div class="cuadro">
         <h3>Ejemplos estadísticos</h3>
-        <p>Aquí encontrarán los ejemplos teóricos.</p>
+        <p>Aquí encontraran los ejemplos teóricos.</p>
         <li><a href="https://raw.githubusercontent.com/NicolasGP01/Analitica_de_datos-para_las_empresas/main/docs/Material_de_apoyo/Regresion_Lineal.xlsx" download>-Beta estimado-</a></li>
         <li><a href="https://raw.githubusercontent.com/NicolasGP01/Analitica_de_datos-para_las_empresas/main/docs/Material_de_apoyo/Teorema%20central%20del%20limite.xlsx" download>-TLC-</a></li>
       </div>
@@ -141,6 +128,7 @@
         <li><a href="docs/Material_de_apoyo/Download.pdf" target="_blank">Cómo descargar los programas estadísticos</a></li>
         <li><a href="docs/Material_de_apoyo/Entornos.pdf" target="_blank">Descripción de los entornos de trabajo</a></li>
         <li><a href="docs/Material_de_apoyo/Lista_Con.pdf" target="_blank">Lista de conceptos a tener en cuenta</a></li>
+        Script de archivos .TeX
         <li><a href="docs/Material_de_apoyo/paper.tex" download>Paper</a></li>
         <li><a href="docs/Material_de_apoyo/Plantilla_%20Tesis.zip" target="_blank">Tesis</a></li>
       </div>
@@ -148,20 +136,17 @@
       <div class="cuadro full-width">
         <h3>Script</h3>
         <p>Aquí puedes encontrar scripts útiles para tus análisis y automatizaciones.</p>
-
-        <div class="script-columns">
-          <div class="script-column">
-            <h4>Introducción a Python</h4>
-            <ul>
-              <li><a href="docs/Material_de_apoyo/script_automatizacion.py" target="_blank">Script de Automatización</a></li>
-              <li><a href="docs/Material_de_apoyo/script_limpieza.R" target="_blank">Script de Limpieza de Datos</a></li>
-            </ul>
-          </div>
-          <div class="script-column">
+        <div class="columnas">
+          <div class="columna">
             <h4>Introducción a R</h4>
             <ul>
               <li><a href="docs/Script/1.0%20Introducci%C3%B3n%20a%20R.R" target="_blank">Script de Introducción a R</a></li>
-              <li><a href="docs/Script/analisis_estadistico.R" target="_blank">Análisis Estadístico en R</a></li>
+            </ul>
+          </div>
+          <div class="columna">
+            <h4>Introducción a Python</h4>
+            <ul>
+              <li><a href="docs/Material_de_apoyo/script_limpieza.R" target="_blank">Script de Introducción a Python</a></li>
             </ul>
           </div>
         </div>
