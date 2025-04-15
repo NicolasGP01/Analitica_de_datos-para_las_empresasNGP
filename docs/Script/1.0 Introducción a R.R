@@ -10,6 +10,7 @@
 #nicolasgp0109@gmail.com
 
 print("Introducción a R. (Rstudio)")
+browseURL(url = "https://r-coder.com/r-introduction/", browser = getOption("browser"))
 
 print("¿Qué version tengo?")
 version
