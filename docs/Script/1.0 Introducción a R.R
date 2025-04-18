@@ -38,7 +38,7 @@ browseURL(url = "https://www.youtube.com/watch?v=pvJ5FaT9Kj4", browser = getOpti
 
 # Formas de ejecutar R
 # I-1. Trabajando en la consola de R, y después de cada comado se da 'Enter' 
-#    la consola de R es la ventana que generalmente se ubica en la parte inferior izquierda al frente de usted,
+#    la consola de R es la ventana que generalmente se ubica en la parte inferior izquierda (al frente de usted),
 #    sin embargo se puede abrir solo la consola de R sin utilizar la IDE: Rstudio.
 # I-2. Archivo-Nuevo script: es más práctico para ejecutar varios comandos. 
 #   Se le denomina "Scrit" al presente archivo donde esta leyendo toda la información de -Introducción a R.-
@@ -142,6 +142,10 @@ print("Lenguaje orientado a objetos")
 objects()
 ls()
 
+# Con rm() podemos eliminar objetos
+rm()
+
+
 # R está diseñado de forma que la mayoría de operaciones y de funciones 
 # están definidas con carácter vectorial
 
@@ -152,7 +156,7 @@ ls()
 N = c(2,1,3,20)
 N
 N[4]
-
+rm(N)
 
 x = 3+7
 a <- 2
