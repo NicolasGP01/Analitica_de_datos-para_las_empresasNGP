@@ -10,6 +10,7 @@
 # nicolasgp0109@gmail.com
 
 print("Introducción a Python")
+#https://github.com/DiegoSReco/intro_python_para_economistas/tree/main
 
 # ¿Qué versión tengo?
 import sys
