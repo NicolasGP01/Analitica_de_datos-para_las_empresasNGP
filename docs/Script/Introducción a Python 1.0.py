@@ -11,10 +11,22 @@
 
 print("Introducción a Python")
 #https://github.com/DiegoSReco/intro_python_para_economistas/tree/main
+#https://www.tiobe.com/tiobe-index/
+#https://www.tiobe.com/tiobe-index/
+#https://octoverse.github.com/2022/top-programming-languages
+#https://github.com/collections/programming-languages
+#https://innovationgraph.github.com/global-metrics/programming-languages
+#https://survey.stackoverflow.co/2024/
+
 
 # ¿Qué versión tengo?
 import sys
 import platform
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+import webbrowser
 
 print("Versión de Python:", sys.version)
 print("Detalles del sistema:")
@@ -25,7 +37,6 @@ print("Arquitectura:", platform.machine())
 print("Plataforma:", platform.platform())
 
 print("Histórico de versiones de Python en:")
-import webbrowser
 webbrowser.open("https://www.python.org/downloads/")
 
 print("Python dispone de una interfaz de línea de comandos que puede utilizarse de forma interactiva o por scripts.")
@@ -49,24 +60,21 @@ webbrowser.open("https://colab.research.google.com/")
 webbrowser.open("https://www.learnpython.org/")
 webbrowser.open("https://www.youtube.com/watch?v=_uQrJ0TkZlc")  # Curso introductorio en video
 
-
 # Formas de ejecutar Python
 # I-1. Trabajando en la consola interactiva, cada comando se ejecuta con 'Enter'.
-#      Se puede utilizar IDLE o entornos como Anaconda.
+#      Se puede utilizar IDE o entornos como Anaconda, Visual Studio Code.
 # I-2. Archivo .py: es más práctico para ejecutar varios comandos.
 #      Se puede correr el archivo completo o por secciones en editores como VS Code, PyCharm o Jupyter. para ejecutar en Visual con 'Shift + Enter'
 # II Para correr un comando en Jupyter se selecciona la celda y se presiona 'Shift + Enter'.
 #    También se puede usar el botón "Run" o "Ejecutar".
 
 # Tabla 1. Sintaxis de Python
-import pandas as pd
-
 ##https://x.com/python_dv/status/1909345938499657927?s=48
 print("Tabla de sintaxis, pruebas lógicas y operadores aritméticos en Python")
 
 
-# Iniciemos ----
 
+# Iniciemos ----
 print("Operaciones elementales")
 print(3 + 7)
 print(10 - 1)
@@ -86,6 +94,7 @@ print(10/(2**6))
 print((10 + 10 + 10 )/3)
 print((10 + 10 + 10 )/(2**2))
 
+# Para operaciones matematicas utilizamos la libreira math
 import math
 print(math.pi)
 print(math.exp(1))
@@ -217,9 +226,21 @@ print(isinstance(y, str))
 print(isinstance(v, str))
 print(isinstance(True, bool))
 
+## Paquetes --------------------
+print("Como lo hemos escuchado en R se desarrollan diferentes librerias gracias a los aportes de su comunidad")
+
+pip install "nombre del modulo"=="version"
+Directamente en la terminal o prompt de Python utilizaremos la siguiente estructura de comando:
+pip install *nombre del modulo*
+Si queremos instalar una versión específica:
+pip install "nombre del modulo"=="version"
+Si estamos trabajando en un Jupyter notebook (Como en es nuestro caso) podemos ejecturar los comando en un chunck utilizando el signo %:
+%pip install numpy pandas matplotlib seaborn
+%pip install --upgrade pandas
+# Lista %pip list
+
+    
 # Creamos un DataFrame (equivalente a data.frame en R)
-import pandas as pd
-import numpy as np
 
 empresas = ["TechNova", "GreenWorld", "FinExpress"]
 ventas = {
@@ -271,3 +292,5 @@ while True:
     n += 1
     if n > 3:
         break
+
+
