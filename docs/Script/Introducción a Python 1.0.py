@@ -6,7 +6,7 @@
 #######                                                                 ######
 ##############################################################################
 
-# By: Nicolás García Peñaloza
+# By: Nicolás García Peñaloza (Docente)
 # nicolasgp0109@gmail.com
 
 print("Introducción a Python")
