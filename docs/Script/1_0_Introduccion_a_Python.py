@@ -41,9 +41,13 @@ Python es un lenguaje de programación de propósito general.
 Es un lenguaje orientado a objetos, versátil y muy usado en ciencia de datos,
 automatización, desarrollo web, inteligencia artificial, entre otros.
 '''
+print("Dónde está ubicado Python")
+browseURL(url = "https://innovationgraph.github.com/global-metrics/programming-languages", browser = getOption("browser"))
+browseURL(url = "https://www.tiobe.com/tiobe-index/", browser = getOption("browser"))
+browseURL(url = "https://survey.stackoverflow.co/2024/", browser = getOption("browser"))
+
 
 print("Entendamos cómo funciona Python en su entorno interactivo como Jupyter Notebooks o directamente con archivos .py")
-
 # Más recursos:
 webbrowser.open("https://colab.research.google.com/")
 webbrowser.open("https://www.learnpython.org/")
