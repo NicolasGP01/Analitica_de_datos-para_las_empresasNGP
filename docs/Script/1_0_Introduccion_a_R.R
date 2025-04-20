@@ -225,6 +225,7 @@ paste0(OB, " Curso Cuentas Nacionales")
 OB + " Curso Cuentas Nacionales"
 OB + "14" 
 
+rm(x, b, z, y, HOLA_1, palabra, palabra_09, UNIVERSIDAD, U_UNIVERSIDAD, nombres_1997, OB)
 
 # Tipos de datos-------
 ' Tabla 2. Tipos de datos en R
@@ -469,5 +470,48 @@ repeat {
     break  # detenemos el ciclo manualmente
   }
 }
+
+# Ahora hablemos de las herramientas fundamentales para programar de manera eficiente, vectorizada y elegante sin usar muchos bucles for.
+?lapply() ; ?sapply() ; ?apply() ; ?tapply() ; ?mapply()
+
+#lapply() "List apply" -> siempre devuelve una lista.
+"lapply(X, FUN)"
+NICO_LAPPLY <- list(a = 1:3, b = 4:6)
+#Aplicar una función a cada elemento de una lista o vector Y Me interesa conservar el resultado como lista
+lapply(NICO_LAPPLY , sum)  # Resultado: list(a = 6, b = 15)
+
+#sapply() "Simplified apply" -> intenta simplificar el resultado (vector, matriz, o lista si no puede).
+"sapply(X, FUN)"
+#Resultado simplificado (idealmente un vector o matriz). No necesitas una lista
+sapply(NICO_LAPPLY, sum)  # Resultado: vector -> a = 6, b = 15
+
+#apply() funciona sobre matrices o data frames, aplicando una función por filas o columnas.
+"apply(X, MARGIN, FUN)" # MARGIN = 1 -> aplica por filas; MARGIN = 2 -> aplica por columnas
+m <- matrix(1:6, nrow = 2)
+apply(m, 1, sum)  # Suma por filas -> c(9, 12)
+apply(m, 2, mean) # Media por columnas -> c(2, 3, 4)
+
+#tapply() "Table apply" -> aplica una función a subconjuntos de un vector según un factor o grupo.
+"tapply(X, INDEX, FUN)"
+edad <- c(20, 22, 24, 26)
+grupo <- c("A", "A", "B", "B")
+tapply(edad, grupo, mean)  # Resultado: A = 21, B = 25
+
+#mapply() "Multivariate apply" -> versión multivariable de sapply(). Aplica una función a varios vectores en paralelo.
+"mapply(FUN, ..., MoreArgs = list())"
+mapply(rep, 1:3, 3:1) # Resultado: list(rep(1,3), rep(2,2), rep(3,1))
+
+
+'
+|     Función      |    Entrada típica   |        Devuelve      |          Casos comunes           |
+| ---------------- | ------------------- | -------------------- | -------------------------------- |
+|   lapply()       |  lista, vector      | lista                | Iteraciones genéricas            |
+|   sapply()       |  lista, vector      | vector/matriz/lista  | Versión simplificada de lapply() |
+|   apply()        |  matriz, data frame | vector/matriz        | Agregado por filas o columnas    |
+|   tapply()       |  vector + factores  | tabla/vector         | Estadísticas por grupo           |
+|   mapply()       |  múltiples vectores | lista/vector         | Aplicación multivariable paralela|
+| --------------- | ------------- | ----------------------------- | ------------------------------ |
+'
+
 
 print("Tengamos en cuenta dos principios a la hora de codificar: 1) nuesto código debe ser secuencial, debe tener un orden. 2) Optimo, nuestro código debe estar optimizado, lo cual representa hacer el trabajo con las menores lineas de código")
