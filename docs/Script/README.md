@@ -2,6 +2,7 @@
 Códigos del docente (No son los mismos que descansan  en este repositorio. Son diferentes en elementos muy minimos)
 
 [![R](https://img.shields.io/badge/R-0A66C2?style=for-the-badge&logo=R&logoColor=5D8AA8)](https://cran.r-project.org/bin/windows/base/)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 
 <table>
 <tr><th> R </th><th>Python</th></tr>
@@ -29,6 +30,18 @@ Cusos:
 | col 2 is |    centered   |
 
 Cusos:
+* [Harvard University: CS50's Introduction to Programming with Python](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
+* [Scientific Computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
+* [Estadística](https://www.edx.org/learn/data-science/harvard-university-data-science-inference-and-modeling)
+* [Data Visualization with Python](https://cognitiveclass.ai/courses/data-visualization-python)
+* [Home > AI & Machine Learning >Free Course to Learn Machine Learning Algorithms
+Getting Started with Machine Learning Algorithms](https://www.simplilearn.com/learn-machine-learning-algorithms-free-course-skillup)
+* [Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)  
+* [Profesional Machine Learning Engineer](https://cloud.google.com/learn/certification/machine-learning-engineer?hl=es-419)
+* [Curse Free](https://twitter.com/ayo_purity/status/1706973920266453043?t=jkrJPyOG2-u7UOJfUufSQQ&s=08)
+* [Cursos Git Hub](https://x.com/DataScienceDojo/status/1785534618084532477?t=F1DmPTNYRAFlKjk3YaxfXw&s=08)
+* [Tensorflow Models](https://twitter.com/DanKornas/status/1785564854205510118?t=-rix_CI4Q45xgVA89CMzXA&s=08)
+* [Data Science](https://x.com/ezekiel_aleke/status/1785710565135913149?t=BtiHlUpQ5gjj8msX9c5gCw&s=08)
 
 
 </td></tr> </table>
