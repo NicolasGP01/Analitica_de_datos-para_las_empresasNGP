@@ -12,7 +12,7 @@ La ventajas que ofrece R van en el marco de la investigación con un corte estad
 
 | Guía   |      Link      | 
 |----------|:-------------:|
-| Introducción a R |  [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Introducci%C3%B3n%20a%20R%201.0.R) |
+| Introducción a R |  [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Introduccion_a_R_1_0.R) |
 | col 2 is |    centered   |
 
 Cusos:
@@ -28,7 +28,7 @@ Python es un lenguaje de programación de alto nivel de propósito general. Pyth
 
 | Guía   |      Link      | 
 |----------|:-------------:|
-| Introducción a Python |  [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Introducci%C3%B3n%20a%20Python%201.0.py) |
+| Introducción a Python |  [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Introduccion_a_Python_1_0.py) |
 | col 2 is |    centered   |
 
 Cusos:
