@@ -1,12 +1,11 @@
 # Script 
 Códigos del docente (No son los mismos que descansan  en este repositorio. Son diferentes en elementos muy minimos)
 
-
+[![R](https://img.shields.io/badge/R-0A66C2?style=for-the-badge&logo=R&logoColor=5D8AA8)](https://cran.r-project.org/bin/windows/base/)
 
 <table>
 <tr><th> R </th><th>Python</th></tr>
 <tr><td>
-R [![R](https://img.shields.io/badge/R-0A66C2?style=for-the-badge&logo=R&logoColor=5D8AA8)](https://cran.r-project.org/bin/windows/base/)
 R es un lenguaje de programación enfocado a objetos.
 La ventajas que ofrece R van en el marco de la investigación con un corte estadístico y espacial muy fuerte, todo bajo nuestro contexto economico.
 
