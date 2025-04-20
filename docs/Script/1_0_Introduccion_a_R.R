@@ -277,11 +277,12 @@ print("Sin embargo, se debe tener cuidado con la funcion as.() porque al convert
 as(c("1000 M","7","25","y7"),"numeric",TRUE)
 
 "Una matrix tiene elementos (i,j) tomando la siguiente forma:" 
-  ____j_______j_______j____
+' ____j_______j_______j____
 i | (1,1) | (1,2) | (1,3) |
 i | (2,1) | (2,2) | (2,3) |
 i | (3,1) | (3,2) | (3,3) |
- -------------------------
+ -------------------------'
+
 dim(c)
 length(c) # 1 dimensional array
 
