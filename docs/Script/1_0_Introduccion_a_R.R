@@ -297,6 +297,7 @@ a
 dim(a)
 a[2,3]
 
+# Un array es una extensión de la matriz a más de 2 dimensiones. Ideal para: datos con más de 2 dimensiones, como imágenes o datos espaciales/temporales.
 y_1 = array(c, dim=c(50, 3, 1))
 y_1
 y_4 = array(c, dim=c(50, 3, 4))
@@ -362,7 +363,7 @@ anios <- 2017:2023
 empresas <- c("TechNova", "GreenWorld", "FinExpress")
 
 # Ventas anuales por empresa
-ventas_df <- data.frame(
+ventas_df <- data.frame( # Un Data frame es es una estructura de datos tabular. Es como una hoja de cálculo: filas (observaciones) y columnas (variables).
   empresa = empresas,
   ventas_2017 = c(2.5, 3.2, 1.8),
   gastos_2027 = c(2.5, 3.2, 1.8),
@@ -381,7 +382,7 @@ ventas_df <- data.frame(
 print(ventas_df)
 
 # tibble: misma información, formato más limpio
-ventas_tibble <- tibble(
+ventas_tibble <- tibble( # Un tibble es una versión moderna de data.frame (parte del tidyverse). Es más amigable para impresión, y maneja mejor algunos tipos de datos. La diferencias con un data frame es que no convierte strings a factores automáticamente y no cambia los nombres de columnas automáticamente
   empresa = empresas,
   ventas_2017 = c(2.5, 3.2, 1.8),
   gastos_2017 = c(2.5, 3.2, 1.8),
@@ -401,7 +402,7 @@ ventas_tibble <- tibble(
 print(ventas_tibble)
 
 # matrix: solo valores de ventas (sin nombres)
-ventas_matrix <- matrix(
+ventas_matrix <- matrix( # Una matriz es una estructura de datos 2D homogénea: Todos los elementos deben ser del mismo tipo (numéricos, por ejemplo)
   data = c(
     2.5, 3.1, 3.8, 4.5, 5.0, 5.7, 6.2,      # TechNova
     3.2, 3.5, 3.7, 4.0, 4.3, 4.9, 5.1,      # GreenWorld
@@ -415,7 +416,7 @@ ventas_matrix <- matrix(
 print(ventas_matrix)
 
 # data.table
-ventas_dt <- data.table(
+ventas_dt <- data.table( # Una data table es una extensión de data.frame muy optimizada para velocidad y eficiencia de memoria, ideal para manejar datasets grandes.
   empresa = empresas,
   ventas_2017 = c(2.5, 3.2, 1.8),
   gastos_2017 = c(2.5, 3.2, 1.8),
@@ -433,6 +434,16 @@ ventas_dt <- data.table(
   gastos_2023 = c(2.5, 3.2, 1.8)
 )
 print(ventas_dt)
+'
+|       Tipo      |   Dimensiones | Tipos diferentes por columna  |        Especialidades          |
+| --------------- | ------------- | ----------------------------- | ------------------------------ |
+|   data.frame    |      2D       |         Check                 | Sí	Base de datos tabular      |
+|   tibble        |      2D       |         Check                 | Sí	Trabaja bien con tidyverse |
+|   data.table    |      2D       |         Check                 | Sí	Rendimiento y eficiencia   |
+|   matrix        |      2D       |           X                   | No	Cálculos numéricos         |
+|   array         |      2D+      |           X                   | No	Datos multidimensionales   |
+| --------------- | ------------- | ----------------------------- | ------------------------------ |
+'
 
 # Bucles en R: repetir tareas
 # FOR: útil cuando conocemos la cantidad de repeticiones
