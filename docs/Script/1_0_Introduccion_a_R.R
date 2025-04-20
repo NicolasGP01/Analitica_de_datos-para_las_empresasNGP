@@ -159,6 +159,8 @@ rm()
 N = c(2,1,3,20)
 N
 N[4]
+N[2] = 5
+N
 rm(N)
 
 x = 3+7
@@ -274,8 +276,12 @@ as.numeric("1000") ; as.numeric(palabra) ; as.numeric(palabra_09) ; as.character
 print("Sin embargo, se debe tener cuidado con la funcion as.() porque al convertir datos de character a numeric puede perderse informacion")
 as(c("1000 M","7","25","y7"),"numeric",TRUE)
 
-
-
+"Una matrix tiene elementos (i,j) tomando la siguiente forma:" 
+  ____j_______j_______j____
+i | (1,1) | (1,2) | (1,3) |
+i | (2,1) | (2,2) | (2,3) |
+i | (3,1) | (3,2) | (3,3) |
+ -------------------------
 dim(c)
 length(c) # 1 dimensional array
 
@@ -288,6 +294,7 @@ a
 a = matrix(1:4, nrow=2, ncol=4)
 a
 dim(a)
+a[2,3]
 
 y_1 = array(c, dim=c(50, 3, 1))
 y_1
