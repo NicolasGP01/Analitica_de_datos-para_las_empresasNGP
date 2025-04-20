@@ -1,4 +1,4 @@
-# Script
+# Script del docente (No son los mismos que descansan  en este repositorio. Son diferentes en elementos muy minimos)
 
 
 
