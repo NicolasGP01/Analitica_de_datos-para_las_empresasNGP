@@ -1,4 +1,5 @@
-# Script del docente (No son los mismos que descansan  en este repositorio. Son diferentes en elementos muy minimos)
+# Script 
+Códigos del docente (No son los mismos que descansan  en este repositorio. Son diferentes en elementos muy minimos)
 
 
 
