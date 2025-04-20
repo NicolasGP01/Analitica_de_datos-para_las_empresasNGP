@@ -28,13 +28,15 @@ browseURL(url = "https://rsanchezs.gitbooks.io/rprogramming/content/index.html",
 "R es un lenguaje de programación y entorno computacional dedicado a la estadística, 
 un lenguaje orientado a objetos, un sistema de cálculo estadístico y gráficos. Se compone
 de un lenguaje más un entorno de ejecución con gráficos, generalmente" 
-
+print("Dónde está ubicado R")
+browseURL(url = "https://innovationgraph.github.com/global-metrics/programming-languages", browser = getOption("browser"))
+browseURL(url = "https://www.tiobe.com/tiobe-index/", browser = getOption("browser"))
+browseURL(url = "https://survey.stackoverflow.co/2024/", browser = getOption("browser"))
 
 print("Entendamos cómo funciona R en su IDE Rstudio")
 browseURL(url = "https://bookdown.org/manishpatwal/bookdown-demo/", browser = getOption("browser"))
 browseURL(url = "https://msperlin.com/afedr/introduction", browser = getOption("browser"))
 browseURL(url = "https://www.youtube.com/watch?v=pvJ5FaT9Kj4", browser = getOption("browser"))
-
 
 # Formas de ejecutar R
 # I-1. Trabajando en la consola de R, y después de cada comado se da 'Enter' 
