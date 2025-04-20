@@ -1,7 +1,7 @@
 # Recursos de apoyo
 
 <table>
-<tr><th> R </th><th>Python</th></tr>
+<tr><th>Complementos para nuestros programas</th><th>Ejemplos estadísticos</th></tr>
 <tr><td>
   
 | Guía   |      Link      | 
@@ -19,7 +19,7 @@
 </td></tr> </table>
 
 <table>
-<tr><th> R </th><th>Python</th></tr>
+<tr><th>Guías</th><th>Otro</th></tr>
 <tr><td>
   
 | Guía   |      Link      | 
