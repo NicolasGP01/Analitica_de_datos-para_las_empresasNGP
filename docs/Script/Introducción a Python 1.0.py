@@ -30,7 +30,7 @@ import webbrowser
 
 print("Versión de Python:", sys.version)
 print("Detalles del sistema:")
-print("Versión:", platform.python_version())
+print("Versión:", platform.python_version()) #python --version - python3 --version - python -m pip install --upgrade pip - python -m venv venv venv\Scripts\activate (Activar un entorno virtual (opcional pero recomendado):Es buena práctica instalar paquetes en un entorno virtual para evitar conflictos con otras dependencias. Puedes crear y activar un entorno virtual con los siguientes comandos:)
 print("Implementación:", platform.python_implementation())
 print("Sistema Operativo:", platform.system())
 print("Arquitectura:", platform.machine())
