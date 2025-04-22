@@ -225,7 +225,7 @@ paste0(OB, " Curso Cuentas Nacionales")
 OB + " Curso Cuentas Nacionales"
 OB + "14" 
 
-rm(x, b, z, y, HOLA_1, palabra, palabra_09, UNIVERSIDAD, U_UNIVERSIDAD, nombres_1997, OB)
+rm(x, b, z, y, HOLA_1, UNIVERSIDAD, U_UNIVERSIDAD, nombres_1997, OB)
 
 # Tipos de datos-------
 ' Tabla 2. Tipos de datos en R
