@@ -446,6 +446,8 @@ print(ventas_dt)
 | --------------- | ------------- | ----------------------------- | ------------------------------ |
 '
 
+
+
 # Bucles en R: repetir tareas
 # FOR: útil cuando conocemos la cantidad de repeticiones
 for (i in 1:5) {
