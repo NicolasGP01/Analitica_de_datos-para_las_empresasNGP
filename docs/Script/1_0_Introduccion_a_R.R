@@ -446,7 +446,12 @@ print(ventas_dt)
 | --------------- | ------------- | ----------------------------- | ------------------------------ |
 '
 
+print("Responda las siguientes preguntas:")
+print("1) las cuatro tablas -data.frame , tibble , data.table , matrix- contienen información de 3 empresas en un horizonte  temporal de 7 años, que tipo de estructura tienen esas bases  de datos")
+# Para responder estas preguntas tome en cuenta el documento "Lista de conceptos a tener en cuenta" el el punto "1. Conceptos estadísticos"
 
+print("2) Tome el objeto data.frame y tranformelo de tipo ancho (wide) a tipo largo (long).")
+# Busque y utiice la función  melt() del paquete reshape -reshape::melt()- 
 
 # Bucles en R: repetir tareas
 # FOR: útil cuando conocemos la cantidad de repeticiones
