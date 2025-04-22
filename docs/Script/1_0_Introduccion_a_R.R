@@ -2,7 +2,7 @@
 #######                                                                #######
 #                            Análisis de Datos                               #
 #                              Administración                                #
-#                 (Indroducción con el lenguaje de programación R)           #
+#                 (Introducción con el lenguaje de programación R)           #
 #######                                                                 ######
 ##############################################################################
 
