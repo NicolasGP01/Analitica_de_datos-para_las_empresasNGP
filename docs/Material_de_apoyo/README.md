@@ -25,8 +25,7 @@
   
 | Guía   |      Link      | 
 |----------|:-------------:|
-| Demografía | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/1G.pdf
-) [.Tex](https://es.overleaf.com/project/65d81caec619c258e7ce79fd) |
+| Demografía | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/1G.pdf) [.Tex](https://es.overleaf.com/project/65d81caec619c258e7ce79fd) |
 | CNPV | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/2G.pdf) [.Tex](https://es.overleaf.com/project/65d8fe53fb120bf55bc6151d) |
 | Manzanas censales | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/3G.pdf) [.Tex](https://es.overleaf.com/project/65df558abe557e4cc82ebf3d) |
 
@@ -34,8 +33,12 @@
 
 | Guía   |      Link      | 
 |----------|:-------------:|
-| Introducción a Python |  [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Introducci%C3%B3n%20a%20Python%201.0.py) |
-| col 2 is |    centered   |
+| Datos | [GitHub]() [Lucidspark](https://lucid.app/lucidspark/4828e3b6-f957-4f0d-b22f-d1e537075ffc/edit?invitationId=inv_92ec2e78-f260-45e0-98fe-ae2d0759d9a7&page=0_0#) |
+| Cómo descargar los programas estadísticos | [GitHub]() [.Tex](https://es.overleaf.com/project/65d96b4f910d6029bda10cf1) |
+| Descripción de los entornos de trabajo | [GitHub]() [.Tex](https://es.overleaf.com/project/66f9cd45b94f091620b9c62a) |
+| Lista de conceptos a tener en cuenta | [GitHub]() [.Tex](https://es.overleaf.com/project/67f302d333a2ce57ccf6e821) |
+| Paper | [GitHub]() [.Tex](https://es.overleaf.com/project/65d63b9e7bcf1240af3973df) |
+| Tesis | [GitHub]() [.Tex](https://es.overleaf.com/project/65d63b7487cb6712ded99021) |
 
 </td></tr> </table>
 
