@@ -15,7 +15,7 @@
 | Guía   |      Link      | 
 |----------|:-------------:|
 | Beta estimado | [.xlsx](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/Regresion_Lineal.xlsx) |
-| Teorema Central del Limite | [.xlsx]() |
+| Teorema Central del Limite | [.xlsx](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/Teorema%20central%20del%20limite.xlsx) |
 
 </td></tr> </table>
 
