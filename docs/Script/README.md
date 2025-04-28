@@ -15,6 +15,8 @@ La ventajas que ofrece R van en el marco de la investigación con un corte estad
 | Introducción a R |  [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Introduccion_a_R_1_0.R) |
 | Proyecciones Poblacionales | [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Piramide_Poblacional_de_las_Proyecciones_1_1.R) |
 | Georreferenciacion de la poblacion | [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/1_2_y_1_3_Georreferenciacion_de_la_poblacion.R) [Ejercicio](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/1_2_y_1_3_Solucion_taller_Ocupados_y_Salud.R) |
+| Fecundidad y Mortalidad ||
+| Mercado Laboral |  |
 
 
 Cusos:
@@ -31,7 +33,11 @@ Python es un lenguaje de programación de alto nivel de propósito general. Pyth
 | Guía   |      Link      | 
 |----------|:-------------:|
 | Introducción a Python |  [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Introduccion_a_Python_1_0.py) |
-| col 2 is |    centered   |
+| Seguridad |    centered   |
+| Dinámica Empreasarial | |
+| Seguimiento a un programa | | 
+| Indice de precios y cantidades ||
+
 
 Cusos:
 * [Harvard University: CS50's Introduction to Programming with Python](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
