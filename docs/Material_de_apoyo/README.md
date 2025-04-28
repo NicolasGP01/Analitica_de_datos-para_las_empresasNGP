@@ -6,7 +6,7 @@
   
 | Guía   |      Link      | 
 |----------|:-------------:|
-| Librerías |  [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/Packages.pdf) [.Tex](https://es.overleaf.com/project/65fb4f1de3b872f2be7110db) |
+| Librerías | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/Packages.pdf) [.Tex](https://es.overleaf.com/project/65fb4f1de3b872f2be7110db) |
 | Recursos para los programas estadísticos | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/Recursos_Medicion.pdf) [.Tex](https://es.overleaf.com/project/65ce608e4ee75a6fbec23c89) |
 | Git y GitHub | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/1_Git_and_GitHub.pdf) [.Tex](https://es.overleaf.com/project/66edfd057a071842bee7241f) |
 
@@ -25,8 +25,9 @@
   
 | Guía   |      Link      | 
 |----------|:-------------:|
-| Introducción a R |  [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Introducci%C3%B3n%20a%20R%201.0.R) |
-| col 2 is |    centered   |
+| Demografía | [GitHub]() [.Tex](https://es.overleaf.com/project/65d81caec619c258e7ce79fd) |
+| CNPV | [GitHub]() [.Tex](https://es.overleaf.com/project/65d8fe53fb120bf55bc6151d) |
+| Manzanas censales | [GitHub]() [.Tex](https://es.overleaf.com/project/65df558abe557e4cc82ebf3d) |
 
 </td><td>
 
