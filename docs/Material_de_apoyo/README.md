@@ -14,8 +14,8 @@
 
 | Guía   |      Link      | 
 |----------|:-------------:|
-| Introducción a Python |  [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Introducci%C3%B3n%20a%20Python%201.0.py) |
-| col 2 is |    centered   |
+| Beta estimado | [.xlsx](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/Regresion_Lineal.xlsx) |
+| Teorema Central del Limite | [.xlsx]() |
 
 </td></tr> </table>
 
