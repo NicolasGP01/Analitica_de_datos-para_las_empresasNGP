@@ -17,6 +17,8 @@ La ventajas que ofrece R van en el marco de la investigación con un corte estad
 | Georreferenciacion de la poblacion | [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/1_2_y_1_3_Georreferenciacion_de_la_poblacion.R) [Ejercicio](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/1_2_y_1_3_Solucion_taller_Ocupados_y_Salud.R) |
 | Fecundidad y Mortalidad ||
 | Mercado Laboral |  |
+| | https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business |
+
 
 
 Cusos:
@@ -37,6 +39,7 @@ Python es un lenguaje de programación de alto nivel de propósito general. Pyth
 | Dinámica Empreasarial | |
 | Seguimiento a un programa | | 
 | Indice de precios y cantidades ||
+||https://archive.ics.uci.edu/dataset/851/steel+industry+energy+consumption|
 
 
 Cusos:
