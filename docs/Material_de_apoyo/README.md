@@ -25,9 +25,10 @@
   
 | Guía   |      Link      | 
 |----------|:-------------:|
-| Demografía | [GitHub]() [.Tex](https://es.overleaf.com/project/65d81caec619c258e7ce79fd) |
-| CNPV | [GitHub]() [.Tex](https://es.overleaf.com/project/65d8fe53fb120bf55bc6151d) |
-| Manzanas censales | [GitHub]() [.Tex](https://es.overleaf.com/project/65df558abe557e4cc82ebf3d) |
+| Demografía | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/1G.pdf
+) [.Tex](https://es.overleaf.com/project/65d81caec619c258e7ce79fd) |
+| CNPV | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/2G.pdf) [.Tex](https://es.overleaf.com/project/65d8fe53fb120bf55bc6151d) |
+| Manzanas censales | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/3G.pdf) [.Tex](https://es.overleaf.com/project/65df558abe557e4cc82ebf3d) |
 
 </td><td>
 
