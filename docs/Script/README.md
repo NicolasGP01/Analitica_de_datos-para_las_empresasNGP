@@ -14,7 +14,7 @@ La ventajas que ofrece R van en el marco de la investigación con un corte estad
 |----------|:-------------:|
 | Introducción a R |  [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Introduccion_a_R_1_0.R) |
 | Proyecciones Poblacionales | [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/Piramide_Poblacional_de_las_Proyecciones_1_1.R) |
-| Pirámide Poblacional | [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/1_2_y_1_3_Georreferenciacion_de_la_poblacion.R) |
+| Georreferenciacion de la poblacion | [Script](https://github.com/NicolasGP01/Tecnicas-de-medicion-economica/blob/main/UNIDAD1/Material/1_2_y_1_3_Georreferenciacion_de_la_poblacion.R) |
 
 
 Cusos:
