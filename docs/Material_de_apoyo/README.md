@@ -6,9 +6,10 @@
   
 | Guía   |      Link      | 
 |----------|:-------------:|
-| Librerías |  [GitHub]() [.Tex](https://es.overleaf.com/project/65fb4f1de3b872f2be7110db) |
-| Recursos para los programas estadísticos | [GitHub]() [.Tex](https://es.overleaf.com/project/65ce608e4ee75a6fbec23c89) |
-| Git y GitHub | [GitHub]() [.Tex](https://es.overleaf.com/project/66edfd057a071842bee7241f) |
+| Librerías |  [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/Packages.pdf
+) [.Tex](https://es.overleaf.com/project/65fb4f1de3b872f2be7110db) |
+| Recursos para los programas estadísticos | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/Recursos_Medicion.pdf) [.Tex](https://es.overleaf.com/project/65ce608e4ee75a6fbec23c89) |
+| Git y GitHub | [GitHub](https://github.com/NicolasGP01/Analitica_de_datos-para_las_empresas/blob/main/docs/Material_de_apoyo/1_Git_and_GitHub.pdf) [.Tex](https://es.overleaf.com/project/66edfd057a071842bee7241f) |
 
 </td><td>
 
