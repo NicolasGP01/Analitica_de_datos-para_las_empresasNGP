@@ -5,6 +5,8 @@
 
 [**Editar encuesta**](https://docs.google.com/forms/d/18qqAcqnTSw2gc-RQ7opjVcR-uRGWF_h3dQokXON_8QE/edit?hl=es)
 
+[Habilitar](https://docs.github.com/es/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site)
+
 ### Estructura de la página
 /mi-curso
 
