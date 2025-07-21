@@ -523,3 +523,5 @@ mapply(rep, 1:3, 3:1) # Resultado: list(rep(1,3), rep(2,2), rep(3,1))
 print("Recordemos siempre limpiar el panel de la memoria interna de R y la consola de R")
 print("Tengamos en cuenta dos principios a la hora de codificar: 1) nuesto código debe ser secuencial, debe tener un orden. 2) Optimo, nuestro código debe estar optimizado, lo cual representa hacer el trabajo con las menores lineas de código")
 
+print("Ahora provemos subiendo una base de datos como archivo .xlsx")
+BASE = readxl::read_xlsx(path = "C:/Users/nicol.NICOLAS_GP/Downloads/Base de datos.xlsx")
