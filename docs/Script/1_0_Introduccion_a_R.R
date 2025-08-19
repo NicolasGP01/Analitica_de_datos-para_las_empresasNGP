@@ -525,3 +525,17 @@ print("Tengamos en cuenta dos principios a la hora de codificar: 1) nuesto códi
 
 print("Ahora provemos subiendo una base de datos como archivo .xlsx")
 BASE = readxl::read_xlsx(path = "C:/Users/nicol.NICOLAS_GP/Downloads/Base de datos.xlsx")
+
+print("Preguntas:")
+
+# 1)  Renombremos variables
+
+# 2) Reordenar variables
+
+# 3) Eliminar la variables Año
+
+# 4) Cree un nuevo objeto que se llame BASE_1_2 solo seleccionar el departamento y el PIB a precios constantes
+
+print("Consulta:")
+
+# 1) Consultar que son las funciones Merge y Append ¿Para qué se usan y qué hacen?
