@@ -156,3 +156,4 @@ ggplot(POBLA_1 ,aes(x =EDAD , y = PERSONAS ,fill = SEXO )) +
 
 print("Quiz: Seleccione el municipio de Genova-Quindío y saque la piramide para el año 1997")
 
+
